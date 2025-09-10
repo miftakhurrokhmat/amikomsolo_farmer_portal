@@ -1,5 +1,5 @@
   <footer class="main-footer text-center">
-    <strong>&copy; <?= date('Y') ?> Admin Pertanian.</strong> All rights reserved.
+    <strong>&copy; <?= date('Y') ?> SMART Tani.</strong> All rights reserved.
   </footer>
 </div>
 
