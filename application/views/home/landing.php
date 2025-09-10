@@ -151,7 +151,7 @@
 </div>
 <!-- Pagination -->
 <div class="mt-14 flex justify-center">
-  <nav class="flex items-center gap-2">
+  <nav class="flex items-center gap-2 text-green-700">
     <?= $pagination ?? '' ?>
   </nav>
 </div>
@@ -183,7 +183,7 @@
           <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-green-100 text-green-600">
             <i class="fas fa-phone"></i>
           </div>
-          <p class="text-gray-700">
+          <p class="text-gray-700 mt-2">
             <?= htmlspecialchars($contact['telepon'] ?? '-') ?>
           </p>
         </li>
@@ -191,7 +191,7 @@
           <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-green-100 text-green-600">
             <i class="fas fa-envelope"></i>
           </div>
-          <p class="text-gray-700">
+          <p class="text-gray-700 mt-2">
             <?= htmlspecialchars($contact['email'] ?? '-') ?>
           </p>
         </li>
