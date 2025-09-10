@@ -1,5 +1,5 @@
 
-# CI3 Farm Admin + Landing Page (AdminLTE)
+# SMART Tani Landing Page + Admin (AdminLTE)
 
 This bundle includes:
 1) Landing page integrated into CI3 (`Home` controller + view).
@@ -17,7 +17,7 @@ This bundle includes:
 ### 1) Get CodeIgniter 3
 Option A (Composer):
 ```
-composer create-project codeigniter/framework ci3
+composer create-project codeigniter/framework amikomsolo_farmer_portal
 ```
 Then copy **/system** from that project next to this project's `index.php` (or move this `application/` into that project).
 
@@ -28,12 +28,12 @@ Option B (Manual):
 ### 2) Configure Base URL & Database
 Edit `application/config/config.php`:
 ```php
-$config['base_url'] = 'http://localhost/ci3-farm-admin/';
+$config['base_url'] = 'http://localhost/amikomsolo_farmer_portal/';
 ```
 Edit `application/config/database.php` with your DB credentials.
 
 ### 3) Import Database
-Import `sql/admin_panel.sql` (creates DB `ci3_admin_panel` with tables and sample data).
+Import `sql/00 ddl_migration.sql` (creates DB `db_farmer` with tables and sample data).
 Or run seeder endpoints (below).
 
 ### 4) Routes
